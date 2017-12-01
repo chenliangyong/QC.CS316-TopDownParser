@@ -1,0 +1,7 @@
+int fact (int n) =
+    if (= n 0 then 1
+    else (* n (fact (- n 1)))
+    
+int test (int x, int y) =
+    if (> x -0987) then +6453
+    else -1540

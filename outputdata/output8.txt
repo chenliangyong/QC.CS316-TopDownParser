@@ -1,0 +1,157 @@
+0 <fun def>
+ 1 <header>
+  2 <type> int
+  2 <fun name> Arith_Test
+  2 <parameter list>
+   3 <parameter> int i1
+   3 <parameter> int i2
+   3 <parameter> int i3
+   3 <parameter> int i4
+ 1 <exp>
+  2 <fun exp>
+   3 +
+   3 <exp>
+    4 <fun exp>
+     5 -
+     5 <exp>
+      6 i1
+     5 <exp>
+      6 i2
+     5 <exp>
+      6 i3
+     5 <exp>
+      6 i4
+   3 <exp>
+    4 <fun exp>
+     5 *
+     5 <exp>
+      6 i1
+     5 <exp>
+      6 i2
+     5 <exp>
+      6 i3
+     5 <exp>
+      6 i4
+   3 <exp>
+    4 <fun exp>
+     5 /
+     5 <exp>
+      6 i1
+     5 <exp>
+      6 i2
+     5 <exp>
+      6 i3
+     5 <exp>
+      6 i4
+
+--------------------
+
+0 <fun def>
+ 1 <header>
+  2 <type> boolean
+  2 <fun name> Bool_Test
+  2 <parameter list>
+   3 <parameter> boolean x1
+   3 <parameter> boolean x2
+   3 <parameter> boolean x3
+   3 <parameter> boolean x4
+ 1 <exp>
+  2 <fun exp>
+   3 or
+   3 <exp>
+    4 <fun exp>
+     5 and
+     5 <exp>
+      6 x1
+     5 <exp>
+      6 x2
+     5 <exp>
+      6 x3
+     5 <exp>
+      6 x4
+   3 <exp>
+    4 <fun exp>
+     5 or
+     5 <exp>
+      6 x1
+     5 <exp>
+      6 x2
+     5 <exp>
+      6 x3
+     5 <exp>
+      6 x4
+   3 <exp>
+    4 <fun exp>
+     5 not
+     5 <exp>
+      6 x1
+
+--------------------
+
+0 <fun def>
+ 1 <header>
+  2 <type> boolean
+  2 <fun name> Comp_Test
+  2 <parameter list>
+   3 <parameter> int i1
+   3 <parameter> int i2
+   3 <parameter> int i3
+   3 <parameter> int i4
+ 1 <exp>
+  2 <fun exp>
+   3 or
+   3 <exp>
+    4 <fun exp>
+     5 =
+     5 <exp>
+      6 i1
+     5 <exp>
+      6 i2
+     5 <exp>
+      6 i3
+     5 <exp>
+      6 i4
+   3 <exp>
+    4 <fun exp>
+     5 <
+     5 <exp>
+      6 i1
+     5 <exp>
+      6 i2
+     5 <exp>
+      6 i3
+     5 <exp>
+      6 i4
+   3 <exp>
+    4 <fun exp>
+     5 <=
+     5 <exp>
+      6 i1
+     5 <exp>
+      6 i2
+     5 <exp>
+      6 i3
+     5 <exp>
+      6 i4
+   3 <exp>
+    4 <fun exp>
+     5 >
+     5 <exp>
+      6 i1
+     5 <exp>
+      6 i2
+     5 <exp>
+      6 i3
+     5 <exp>
+      6 i4
+   3 <exp>
+    4 <fun exp>
+     5 >=
+     5 <exp>
+      6 i1
+     5 <exp>
+      6 i2
+     5 <exp>
+      6 i3
+     5 <exp>
+      6 i4
